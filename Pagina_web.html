@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato Mistico</title>
+    <link rel="shortcut icon" href="imagenes/logo_Lamar.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="titulo">Gato Mistico</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Bienvenido a Gato Mistico</h1>
+            <p>Disfruta de nuestra variedad de productos hechos de manera artesanal.</p>
+            <p>Cada producto se elabora sobre pedido para cuidar que se entregue fresco y de calidad.</p>
+            <p>Además, elegimos los mejores ingredientes para que tengas la mejor experiencia.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Productos Destacados</h2>
+            <div class="producto">
+                <img src="manzana.jpg" alt="Manzana con Tamarindo">
+                <h3>Manzana con Tamarindo</h3>
+                <p>Nuestra manzana es elaborada con tamarindo artesanal.</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="enviar_contacto.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gato Mistico. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
